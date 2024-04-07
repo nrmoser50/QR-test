@@ -1,0 +1,47 @@
+/* Base styles */
+html {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* White box outside body */
+  .wrapper {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    margin: 10%;
+  }
+
+  .qr-code {
+    border-radius: 50px;
+  }
+  
+  /* Styles for the main content */
+  main {
+    text-align: center;
+  }
+  
+  /* Styles for the footer attribution */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(218, 44%, 22%);
+  }
+  
+
+
